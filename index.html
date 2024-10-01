@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendiendo HTML</title>
-
+    <title>Ecommerce - Home </title>
+    <link rel="stylesheet" href="css/app.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Tienda de Muebles</h1>
+        <h1 class="nombre-sitio"> Tienda <span> Muebles </span> </h1>
     </header>
 
-    <nav>
+    <nav class="navegacion">
         <a href="index.html">Inicio</a>
         <a href="nosotros.html">Nosotros</a>
         <a href="tienda.html">Tienda</a>
@@ -25,7 +25,7 @@
     </nav>
 
     <section>
-        <h2>Categorias de Productos</h2>
+        <h2>Categorias de <span> Productos </span> </h2>
 
         <div>
             <img src="img/categoria1.jpg" alt="Imagen categoría">
@@ -44,7 +44,17 @@
 
     </section>
 
-    <section>
+    <section class="sobre-nosotros">
+        <div>
+            <h2>Sobre Nosotros</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                emporibus corporis blanditiis facilis quam fugit molestias vitae, dolor adipisci doloremque
+                sapiente harum qui, nulla iste accusantium. Repellat deleniti minus esse delectus.
+            </p>
+        </div>
+    </section>
+
+    <section class="sobre-empresa">
         <div>
             <h2>Sobre Nosotros</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -139,6 +149,36 @@
 
 
     <footer>
+        <div>
+            <h3> Categorías </h3>
+
+            <nav class="navegacion">
+                <a class="enlace" href="#">Cocina</a>
+                <a class="enlace" href="#">Oficina</a>
+                <a class="enlace" href="#">Jardin</a>
+                <a class="enlace" href="#">Cochera</a>
+                <a class="enlace" href="#">Dormitorios</a>
+            </nav>
+        </div>
+        <div>
+            <h3> Sobre Nosotros </h3>
+            <nav class="navegacion">
+                <a class="enlace" href="#">Nuestra Historia</a>
+                <a class="enlace" href="#">Misión, Visión y Valores</a>
+                <a class="enlace" href="#">Carreras</a>
+                <a class="enlace" href="#">Política de privacidad</a>
+                <a class="enlace" href="#">Términos del Servicio</a>
+            </nav>
+        </div>
+        <div>
+            <h3> Soporte </h3>
+            <nav>
+                <a href="#">Preguntas Frecuentes</a>
+                <a href="#">Ayuda en Línea</a>
+                <a href="#">Confianza y Seguridad </a>
+                
+            </nav>
+        </div>
         <p>Todos los derechos reservados, TiendaDeMuebles</p>
     </footer>
 </body>
